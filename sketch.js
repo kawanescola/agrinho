@@ -26,6 +26,9 @@ function ativaJogo() {
   }
 
 function desenhaJogadores() {
+  textSize (20);
+  text ("Corrida! aperte A, S, D, F", 75, 20); 
+  
   textSize(40);
   for (let i = 0; i < quantidade; i++) {
     text(jogador[i], xJogador[i], yJogador[i]);
